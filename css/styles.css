@@ -1,0 +1,257 @@
+/* Add these new styles to your existing CSS file */
+
+/* Services Section */
+.services-section {
+    position: relative;
+}
+
+.section-description {
+    max-width: 700px;
+    margin: 0 auto 50px;
+    color: #666;
+    font-size: 18px;
+}
+
+.service-category {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    height: 100%;
+}
+
+.category-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.category-header i {
+    font-size: 36px;
+    color: var(--primary-color);
+    margin-right: 20px;
+}
+
+.category-header h3 {
+    margin-bottom: 0;
+    font-size: 28px;
+}
+
+.service-items {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.service-item {
+    display: flex;
+    gap: 20px;
+}
+
+.service-icon {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(231, 76, 60, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: var(--primary-color);
+    flex-shrink: 0;
+}
+
+.service-details h4 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: var(--dark-color);
+}
+
+.service-details p {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.service-features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.service-features li {
+    font-size: 14px;
+    color: #666;
+    display: flex;
+    align-items: center;
+}
+
+.service-features i {
+    color: var(--primary-color);
+    margin-right: 8px;
+    font-size: 12px;
+}
+
+/* Responsive adjustments for services */
+@media (max-width: 992px) {
+    .service-items {
+        gap: 20px;
+    }
+    
+    .service-item {
+        flex-direction: column;
+    }
+    
+    .service-icon {
+        margin-bottom: 15px;
+    }
+    
+    .service-features {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .category-header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .category-header i {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+}
+
+/* Add these new styles to your existing CSS file */
+
+/* Services Section */
+.services-section {
+    position: relative;
+}
+
+.section-description {
+    max-width: 700px;
+    margin: 0 auto 50px;
+    color: #666;
+    font-size: 18px;
+}
+
+.service-category {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    height: 100%;
+}
+
+.category-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.category-header i {
+    font-size: 36px;
+    color: var(--primary-color);
+    margin-right: 20px;
+}
+
+.category-header h3 {
+    margin-bottom: 0;
+    font-size: 28px;
+}
+
+.service-items {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.service-item {
+    display: flex;
+    gap: 20px;
+}
+
+.service-icon {
+    width: 60px;
+    height: 60px;
+    background-color: rgba(231, 76, 60, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: var(--primary-color);
+    flex-shrink: 0;
+}
+
+.service-details h4 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: var(--dark-color);
+}
+
+.service-details p {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.service-features {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.service-features li {
+    font-size: 14px;
+    color: #666;
+    display: flex;
+    align-items: center;
+}
+
+.service-features i {
+    color: var(--primary-color);
+    margin-right: 8px;
+    font-size: 12px;
+}
+
+/* Responsive adjustments for services */
+@media (max-width: 992px) {
+    .service-items {
+        gap: 20px;
+    }
+    
+    .service-item {
+        flex-direction: column;
+    }
+    
+    .service-icon {
+        margin-bottom: 15px;
+    }
+    
+    .service-features {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .category-header {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .category-header i {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+}
